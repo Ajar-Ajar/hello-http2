@@ -1,0 +1,21 @@
+{
+  "name": "hello-http2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server-http2.js",
+    "start": "node server-http2.js"
+  },
+  "keywords": [],
+  "author": "Ajar <ajar@artizan.io> (https://artizan.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "@ajar/marker": "^1.1.13",
+    "express": "^4.16.4",
+    "restify": "^7.5.0"
+  }
+}
